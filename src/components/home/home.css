@@ -1,0 +1,61 @@
+
+.mainWrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    marigin: 20px
+}
+.banner{
+    text-align: center;
+    align-content: center;
+    line-height: 75px;
+    height: 75px;
+    margin: 10px;
+    background: #F7F6EF;
+    font-size: large;
+    color: #A57C46;
+}
+.homeGallery{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#hp1{
+    height: 350px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+#hp2{
+    height: 450px;
+}
+#hp3{
+    padding-top: 40px;
+    height: 350px;
+}
+img{
+    padding: 4px;
+}
+
+.why{
+    text-align: center;
+    align-content: center;
+    line-height: 75px;
+    height: 75px;
+    margin: 10px;
+}
+.paragraphBox{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.paragraph{
+    width: 750px;
+}
+
+
+
+
+

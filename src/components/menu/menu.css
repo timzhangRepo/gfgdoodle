@@ -1,0 +1,24 @@
+.headerWrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.menuTab{
+    margin: 0 150px 0px 150px;
+}
+.mainTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #A57C46;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menuTab{
+    cursor: pointer;
+}
+
+
