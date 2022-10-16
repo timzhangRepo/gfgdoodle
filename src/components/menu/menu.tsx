@@ -1,22 +1,28 @@
 import React from "react";
 import './menu.css'
+import {Navigate} from 'react-router-dom';
+
 
 import IMG_6852 from '../../resources/imgs/IMG_6852.jpg';
-class Menu extends React.Component{
+export class Menu extends React.Component{
     constructor(props: any){
         super(props);
         this.state = {
-            data: new Date()
+            redirect:false
         }
     }
     render(){
         return <div className={"headerWrap"}>
-            <div className={"menuTab"}>OUR DOGS</div>
-            <div className={'mainTitle'}>
-                <div>Good Friends</div>
-                <div>Golden Doodle</div>
+            <div className={"menuTab"}>
+                <a href={"/adopt"}>OUR DOGS</a>
             </div>
-            <div className={"menuTab"}>OUR STORY</div>
+            <div className={'mainTitle'}>
+                <div>Best Friend</div>
+                <div>Golden Doodles</div>
+            </div>
+            <div className={"menuTab"}>
+                <a href={"/"}>OUR STORY</a>
+            </div>
         </div>
     }
 }

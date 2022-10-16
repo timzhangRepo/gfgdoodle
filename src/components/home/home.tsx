@@ -8,12 +8,8 @@ import IMG_6705 from "../../resources/imgs/IMG_6705.jpg";
 import {specialization, about}from "../../resources/texts/stories"
 export class Home extends React.Component{
 
-
     render(){
         return <div className="mainWrap">
-            <div>
-                <Menu></Menu>
-            </div>
             <div className={"banner"}>Our Story</div>
             <div className={"homeGallery"}>
                 <img id={"hp1"} src={IMG_8590} alt={"hp1"}></img>
