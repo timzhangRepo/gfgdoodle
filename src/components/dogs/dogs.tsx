@@ -17,14 +17,14 @@ export class Dogs extends React.Component {
             image: IMG_9197,
             birthdate: "8/12/2022",
             ready: true,
-            parents: "Big Doodle & Sweet Doodle",
+            parents: "Paisley (12lbs) & Ruston (14lbs)",
             gender: "male"
         },
         {
             image: IMG_9170,
             birthdate: "8/12/2022",
             ready: true,
-            parents: "Big Doodle & Sweet Doodle",
+            parents: "Paisley (12lbs) & Ruston (14lbs)",
             gender: "female"
         },
     ]

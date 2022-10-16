@@ -3,7 +3,7 @@ import Menu from "../menu/menu";
 import './home.css'
 import IMG_6852 from "../../resources/imgs/IMG_6852.jpg";
 import IMG_8590 from "../../resources/imgs/IMG_8590.jpg";
-import IMG_6705 from "../../resources/imgs/IMG_6705.jpg";
+import IMG_5693 from "../../resources/imgs/IMG_5693.jpg";
 
 import {specialization, about}from "../../resources/texts/stories"
 export class Home extends React.Component{
@@ -14,7 +14,7 @@ export class Home extends React.Component{
             <div className={"homeGallery"}>
                 <img id={"hp1"} src={IMG_8590} alt={"hp1"}></img>
                 <img id={"hp2"} src={IMG_6852} alt={"hp2"}></img>
-                <img id={"hp3"} src={IMG_6705} alt={"hp3"}></img>
+                <img id={"hp3"} src={IMG_5693} alt={"hp3"}></img>
             </div>
             <h2 className={"why"}>WHY US</h2>
             <div className={"paragraphBox"}>
